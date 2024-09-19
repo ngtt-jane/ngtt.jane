@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+ 
+*{
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*MENU BAR*/
+.menubar{
+    box-sizing: border-box;
+    width: 100%;
+    height: 81px;
+    font-size: 18px;
+    font-weight: 350;
+    padding: 0 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.links a{
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+/*AIEXPO IMAGES*/
+.aiexpoimages {
+    display: flex;
+    white-space: nowrap;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.aiimages{
+    overflow-x: auto;
+}
+.aiimages img {
+    padding-left: 8px;
+    width: 981px;
+    height: 735px;
+}
+
+/*TITLE*/
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 64px;
+    font-weight: 350;
+    padding-top: 45px;
+}
+
+/*SUBTITLE*/
+.subtitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 8px;
+
+}
+
+/*OVERVIEW*/
+.overview{
+    padding: 80px 0 0 0;
+
+}
+
+.overview-title{
+    padding-left: 56px;
+    font-weight: 350;
+    font-size: 36px;
+}
+
+.overview-body{
+    padding-left: 56px;
+    width: 900px;
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/*CONCEPT*/
+.concept{
+    padding: 80px 0 0 0;
+
+}
+
+.concept-title{
+    padding-left: 56px;
+    font-weight: 350;
+    font-size: 36px;
+}
+
+.concept-body{
+    padding-left: 56px;
+    width: 900px;
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/*DESIGN*/
+.design{
+    padding: 80px 0 0 0;
+
+}
+
+.design-title{
+    padding-left: 56px;
+    font-weight: 350;
+    font-size: 36px;
+}
+
+.design-body{
+    padding-left: 56px;
+    padding-bottom: 80px;
+    width: 900px;
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/*FOOTER*/
+.bottomnav {
+    font-size: 18px;
+    font-weight: 200;
+}
+.bottomnav-container {
+    width: 100%;
+    height: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
